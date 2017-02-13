@@ -166,8 +166,7 @@ SRC += $(KEYBOARD_FILE) \
 	$(KEYMAP_FILE) \
 	$(QUANTUM_DIR)/quantum.c \
 	$(QUANTUM_DIR)/keymap_common.c \
-	$(QUANTUM_DIR)/keycode_config.c \
-	$(QUANTUM_DIR)/process_keycode/process_leader.c
+	$(QUANTUM_DIR)/keycode_config.c
 
 ifdef SUBPROJECT
 	SRC += $(SUBPROJECT_FILE)
